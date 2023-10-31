@@ -1,8 +1,8 @@
 
 import matplotlib.pyplot as plt
-from Lepeu_Nat_Com_2023 import Pulse_Analysis_funct
-import GL_Pulse_Plot
-from Lepeu_Nat_Com_2023 import Info_Experiment
+import Pulse_Analysis_funct
+import Pulse_Plotting_funct
+import Info_Experiment
 
 # Created by GL, script to process responses to opotgentic pulse, and save them in pandas datafram
 
@@ -35,7 +35,7 @@ for i in range(len(list_sessions)):
     Pulse_Analysis_funct.Train_Sum_LL(animal, session,dir,ref_channel,time_window=LL_window_train,highpass=0.5, lowpass=100)
 
     #### Plot stim response #########
-    GL_Pulse_Plot.SP_mean_trace_and_LL_per_intensitiy_1session(animal,session, dir, ref_channel,metric=metric,protocol="SP",time_window=LL_window)
+    Pulse_Plotting_funct.SP_mean_trace_and_LL_per_intensitiy_1session(animal,session, dir, ref_channel,metric=metric,protocol="SP",time_window=LL_window)
     plt.show()
 
 

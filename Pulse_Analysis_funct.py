@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from scipy import stats
 import dabest
-from Lepeu_Nat_Com_2023 import Info_Experiment
+import Info_Experiment
 from sklearn.decomposition import NMF
 
 # All functions used for pulse analysis, created by GL

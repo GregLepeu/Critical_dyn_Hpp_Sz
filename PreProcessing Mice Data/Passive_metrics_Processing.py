@@ -1,5 +1,5 @@
-from Lepeu_Nat_Com_2023 import Passive_metrics_analysis_funct
-from Lepeu_Nat_Com_2023 import Info_Experiment
+import Passive_metrics_analysis_funct
+import Info_Experiment
 import matplotlib.pyplot as plt
 
 # Created by GL, script to process passive metrics in between single pulse, and save them in pandas datafram

@@ -1,5 +1,5 @@
-from Lepeu_Nat_Com_2023 import Info_Experiment
-from Lepeu_Nat_Com_2023 import Pulse_Analysis_funct
+import Info_Experiment
+import Pulse_Analysis_funct
 import pandas as pd
 import seaborn as sns
 import numpy as np
@@ -11,7 +11,6 @@ import matplotlib.patches as patches
 import os
 import dabest
 from PIL import Image
-import GL_module as gl
 
 #### Scirpt made by GL, corresponding to figure 7.
 # Look at dynamic of single pulse responses (LL) as well as passive metrics before PTZ induced seizures.

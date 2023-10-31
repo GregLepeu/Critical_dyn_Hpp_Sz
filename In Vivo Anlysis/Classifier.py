@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-from Lepeu_Nat_Com_2023 import Info_Experiment
-import GL_module as gl
+import Info_Experiment
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler

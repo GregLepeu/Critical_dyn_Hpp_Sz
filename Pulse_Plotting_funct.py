@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
-import matplotlib.animation as animation
 import os as os
 from mne import io
-import scipy.io
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.rcParams['pdf.fonttype'] = 42
@@ -16,7 +14,6 @@ import matplotlib.patches as patches
 from PIL import Image
 import seaborn as sns
 from scipy import integrate
-from scipy import stats
 import dabest
 import Info_Experiment
 import Pulse_Analysis_funct
