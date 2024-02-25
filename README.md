@@ -27,6 +27,8 @@ Proix, Timothee (In Silico modeling)
 
 van Maren, Ellen (Human data processing)
 
+Baud, Maxime (Supervision)
+
 ### Contact
 
 For any questions, feedback, or inquiries regarding the code or the research, please contact *Gregory Lepeu* at <lepeu.gregory@gmail.com>
